@@ -62,7 +62,9 @@ function App() {
       setAux(pantalla[0] + '=' + pantalla[0]);
       
     }else{
+      // eslint-disable-next-line no-eval
       setPantalla(eval(aux));
+      // eslint-disable-next-line no-eval
       setAux(aux + ' = ' + eval(aux));
     }
 
